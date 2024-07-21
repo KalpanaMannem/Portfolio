@@ -13,7 +13,11 @@ const ProfileSection = () => (
           <li>React</li>
           <li>Python</li>
           <li>Git</li>
-          <li>SQL</li>
+          <li>MySQL</li>
+          <li>TypeScript</li>
+          <li>Microsoft Azure</li>
+          <li>Jquery</li>
+          <li>Tailwind CSS</li>
         </ul>
       </div>
     </section>
