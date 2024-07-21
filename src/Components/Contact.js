@@ -22,11 +22,11 @@ const Contact = () => (
         <h3>Email Address</h3>
         <p>kalpanamannem1998@gmail.com</p>
       </div>
-      <div className="detail">
+      {/* <div className="detail">
         <FontAwesomeIcon icon={faDownload} size="2x" />
         <h3>Download Resume</h3>
         <a href="path/to/resume.pdf" download>resumelink</a>
-      </div>
+      </div> */}
     </div>
   </section>
 );

@@ -54,16 +54,61 @@ body {
   width: 100%;
 }
 
-.hero .social-links {
-  margin-top: 20px;
+
+.hero {
+  
+  text-align: left;
+  /* padding: 20px; */
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  max-width: 1200px; /* Adjust max-width as needed */
+  padding-top: 100px; /* Add padding-top to avoid being hidden behind the fixed header */
 }
 
+.hero .intro {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero .intro h1:first-child {
+  font-size: 1.5em;
+  margin: 0;
+  color: #f39c12;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero .intro h1:nth-child(2) {
+  font-size: 3em;
+  margin: 0;
+  /* color: #f39c12; */
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.hero .intro h1 span {
+  /* color: #ffffff; */
+  color: #f39c12;
+}
+
+.hero .intro p {
+  font-size: 1.5em;
+  color: #ecf0f1;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+/* .hero .social-links {
+  margin-top: 20px;
+} */
+
 .hero .social-links a {
-  /* color: #ecf0f1; */
-  color:#f39c12;
+  color: #f39c12;
   margin: 0 10px;
   transition: color 0.3s ease, transform 0.3s ease;
-
 }
 
 .hero .social-links a:hover {

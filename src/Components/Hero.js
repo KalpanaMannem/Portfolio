@@ -1,12 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-
+import profilepic from "./Profilepic.jpeg"
 const Hero = () => (
   <section className="hero" id="home">
     <div className="intro">
       <h1>Hello!</h1>
-      <h1>I'm Kalpana Mannem</h1>
+      <h1>
+        I'm <span>Kalpana Mannem</span>
+      </h1>
       <p>A Senior Software Developer</p>
       <div className="social-links">
         <a
@@ -26,7 +28,7 @@ const Hero = () => (
       </div>
     </div>
     {/* <div className="profile-pic">
-      <img src={profilePic} alt="Kalpana M" />
+      <img src={profilepic} alt="Kalpana M" />
     </div> */}
   </section>
 );
