@@ -1,5 +1,4 @@
 import React from 'react';
-import profilePic from './Checkmark.JPG'
 
 const Hero = () => (
   <section className="hero" id="home">

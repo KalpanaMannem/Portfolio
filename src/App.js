@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 import Contact from './Components/Contact';
 import ProfileSection from './Components/ProfileSection';
 import Resume from './Components/Resume';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 
 function App() {
