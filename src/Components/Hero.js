@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import profilepic from "./Profilepic.jpeg"
+// import profilepic from "./Profilepic.jpeg"
 const Hero = () => (
   <section className="hero" id="home">
     <div className="intro">
