@@ -12,37 +12,22 @@ const Resume = () => (
           <div className="year">Mar 2022 - Oct 2022</div>
           <h3>Associate IT Consultant</h3>
           <h4>ITC Infotech India Limited</h4>
-          <h5>Bangalore,India</h5>
-          {/* <p>Merkle, a leading CXM and media company with over 10K+ professionals globally. It's a part of Dentsu International.</p>
-          <ul>
-            <li>Analyzed ad campaigns, clickstream, and customer surveys data, identified an increasing demand, and launched a strategic product line.</li>
-            <li>Ensured cross-browser compatibility in our design, achieving a 40% increase in customer satisfaction.</li>
-            <li>Developed and managed a set of web-based services and APIs that increased data accuracy by 35% and reduced the duration of processing by 10%.</li>
-          </ul> */}
+          <h5>Bangalore, India</h5>
+          <div className="description">Enhanced the functionality of the company's activity tracking report in real time and slashed report response time by over 50%. Ensured cross-browser compatibility in our design, achieving a remarkable 40% increase in customer satisfaction. Developed and managed a set of web-based services and APIs that increased data accuracy by 35% and reduced the duration of processing by 10%.</div>
         </div>
         <div className="card">
           <div className="year">Aug 2020 - Mar 2022</div>
           <h3>Associate</h3>
           <h4>Amazon Development Center</h4>
-          <h5>Bangalore,India</h5>
-          {/* <p>iQuanti is a data-driven digital marketing analytics and solutions company, helping top 100 global brands.</p>
-          <ul>
-            <li>Performed in-depth market research and analysis to create online pages. Resulted in 100% website growth and 30% increase in conversion rate YoY.</li>
-            <li>Delivered actionable insights to stakeholders and senior management.</li>
-            <li>Mentored junior developers, improving overall team productivity and code quality.</li>
-          </ul> */}
+          <h5>Bangalore, India</h5>
+          <div className="description">Worked on several high-impact projects, improving the performance and scalability of backend services. Collaborated with cross-functional teams to develop new features and improve existing ones.</div>
         </div>
         <div className="card">
           <div className="year">July 2019 - July 2020</div>
           <h3>Process Executive</h3>
           <h4>Cognizant Technology Solutions</h4>
-          <h5>Hyderabad,India</h5>
-          {/* <p>iQuanti is a data-driven digital marketing analytics and solutions company, helping top 100 global brands.</p>
-          <ul>
-            <li>Performed in-depth market research and analysis to create online pages. Resulted in 100% website growth and 30% increase in conversion rate YoY.</li>
-            <li>Delivered actionable insights to stakeholders and senior management.</li>
-            <li>Mentored junior developers, improving overall team productivity and code quality.</li>
-          </ul> */}
+          <h5>Hyderabad, India</h5>
+          <div className="description">Performed data analysis and process improvement initiatives that resulted in a 20% increase in operational efficiency. Collaborated with team members to design and implement new processes and workflows.</div>
         </div>
       </div>
     </div>
@@ -54,13 +39,13 @@ const Resume = () => (
           <div className="year">2023 - 2024</div>
           <h3>Master Of Science</h3>
           <h4>University Of North Texas</h4>
-          {/* <p>Grade: First class distinction.</p> */}
+          <div className="description">Specializing in Computer Science with a focus on Machine Learning and Data Analytics.</div>
         </div>
         <div className="card">
           <div className="year">2015 - 2019</div>
           <h3>Bachelor of Technology</h3>
           <h4>JNTU Hyderabad</h4>
-          {/* <p>Grade: First class distinction.</p> */}
+          <div className="description">Specialized in Information Technology, graduating with distinction.</div>
         </div>
       </div>
     </div>

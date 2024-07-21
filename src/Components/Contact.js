@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMapMarkerAlt, faPhone, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => (
   <section className="contact" id="contact">
@@ -10,7 +10,7 @@ const Contact = () => (
       <div className="detail">
         <FontAwesomeIcon icon={faMapMarkerAlt} size="2x" />
         <h3>Address</h3>
-        <p>Denton,Texas</p>
+        <p>Denton, Texas</p>
       </div>
       <div className="detail">
         <FontAwesomeIcon icon={faPhone} size="2x" />
@@ -20,13 +20,8 @@ const Contact = () => (
       <div className="detail">
         <FontAwesomeIcon icon={faEnvelope} size="2x" />
         <h3>Email Address</h3>
-        <p>kalpanamannem1998@gmail.com</p>
+        <p><a href="mailto:kalpanamannem1998@gmail.com">kalpanamannem1998@gmail.com</a></p>
       </div>
-      {/* <div className="detail">
-        <FontAwesomeIcon icon={faDownload} size="2x" />
-        <h3>Download Resume</h3>
-        <a href="path/to/resume.pdf" download>resumelink</a>
-      </div> */}
     </div>
   </section>
 );
