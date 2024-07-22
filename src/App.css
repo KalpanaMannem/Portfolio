@@ -71,6 +71,7 @@ body {
 }
 
 .hero {
+  display: flex;
   text-align: left;
   background-color: #000000;
   color: #ffffff;
@@ -83,6 +84,8 @@ body {
   max-width: 600px;
   display: flex;
   flex-direction: column;
+  padding-top: 50px;
+  padding-right: 50px;
 }
 
 .hero .intro h1:first-child {

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProfileSection = () => (
   <div className="main-content">
-    <section className="profile-section">
+    <section className="profile-section" id="skills">
       <div className="skills-section">
         <h2>Skills</h2>
         <ul>
