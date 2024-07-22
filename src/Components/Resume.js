@@ -118,9 +118,9 @@ const Resume = () => {
               <div className="year">{education.year}</div>
               <h3>{education.title}</h3>
               <h4>{education.institution}</h4>
-              <button className="read-more" onClick={() => handleReadMore(index, "education")}>
+              {/* <button className="read-more" onClick={() => handleReadMore(index, "education")}>
                 {expandedCardEducation === index ? "Show Less" : "Read More"}
-              </button>
+              </button> */}
               {expandedCardEducation === index && (
                 <div className="description-overlay">
                   <div className="modal-content">
@@ -139,7 +139,7 @@ const Resume = () => {
         </div>
       </div>
 
-      <a href="path/to/cv.pdf" className="download-cv">Download CV</a>
+      <a href="path/to/cv.pdf" className="download-cv">Download Resume</a>
     </section>
   );
 };

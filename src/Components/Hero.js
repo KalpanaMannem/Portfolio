@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import profilepic from "./Profilepic.jpeg"
+// import profilepic from "./Profilepic.jpeg"
 const Hero = () => (
   <section className="hero" id="home">
     <div className="intro">
@@ -9,7 +9,7 @@ const Hero = () => (
       <h1>
         I'm <span>Kalpana Mannem</span>
       </h1>
-      <p>A Senior Software Developer</p>
+      <p>Software Developer</p>
       <div className="social-links">
         <a
           href="https://www.linkedin.com/in/kalpana-m-339938177/"
@@ -27,9 +27,9 @@ const Hero = () => (
         </a>
       </div>
     </div>
-    <div className="profile-pic">
+    {/* <div className="profile-pic">
       <img src={profilepic} alt="Kalpana M" />
-    </div>
+    </div> */}
   </section>
 );
 
