@@ -40,21 +40,24 @@ const Resume = () => {
       title: 'Associate IT Consultant',
       company: 'ITC Infotech India Limited',
       location: 'Bangalore, India',
-      description: 'Enhanced the functionality of the company\'s activity tracking report in real time and slashed report response time by over 50%. Ensured cross-browser compatibility in our design, achieving a remarkable 40% increase in customer satisfaction. Developed and managed a set of web-based services and APIs that increased data accuracy by 35% and reduced the duration of processing by 10%.'
+      description1: '•	Enhanced the functionality of the company activity tracking report in real time and slashed down on the report response time by over 50%.',
+      description2: '•	Developed and managed a set of web-based services and APIs that increased data accuracy by 35% and reduced the duration of processing by 10%.'
     },
     {
       year: 'Aug 2020 - Mar 2022',
       title: 'Associate',
       company: 'Amazon Development Center',
       location: 'Bangalore, India',
-      description: 'Worked on several high-impact projects, improving the performance and scalability of backend services. Collaborated with cross-functional teams to develop new features and improve existing ones.'
+      description1: '• Created module for a client, which led to a remarkable 30% reduction in development time and a 20% boost in team productivity.',
+      description2: '• Successfully implemented UI enhancements and new features, improving the overall usability and functionality of the web applications.'
     },
     {
       year: 'July 2019 - July 2020',
       title: 'Process Executive',
       company: 'Cognizant Technology Solutions',
       location: 'Hyderabad, India',
-      description: 'Performed data analysis and process improvement initiatives that resulted in a 20% increase in operational efficiency. Collaborated with team members to design and implement new processes and workflows.'
+      description1: '• Improved user interface responsiveness by implementing Python and React, resulting in a 50% increase in customer satisfaction scores.',
+      description2: '• Developed UI enhancements utilizing React, resulting in a 25% enhancement in user experience. Implemented secure, tokenized transaction processing by integrating multiple payment gateways, resulting in a 22% reduction in fraudulent activities.'
     }
   ];
 
@@ -78,7 +81,7 @@ const Resume = () => {
   return (
     <section className="resume" id="resume">
       <h1>Resume <span>Overview</span></h1>
-      <p>Enthusiastic Software Developer with over 3 years of experience crafting user-centric solutions that meet business goals.</p>
+      <p>Enthusiastic Software Developer with over 3 years of experience in designing and implementing comprehensive web solutions, seamlessly integrating both front-end and back-end technologies to deliver robust, scalable, and high-performance applications.</p>
 
       <div className="section">
         <h2>Experience</h2>
@@ -100,7 +103,8 @@ const Resume = () => {
                       <div className="year">{job.year}</div>
                       <h3>{job.title}</h3>
                       <h4>{job.company}</h4>
-                      <p>{job.description}</p>
+                      <p>{job.description1}</p>
+                      <p>{job.description2}</p>
                     </div>
                   </div>
                 </div>
@@ -139,7 +143,7 @@ const Resume = () => {
         </div>
       </div>
 
-      <a href="path/to/cv.pdf" className="download-cv">Download Resume</a>
+      <a href="https://drive.google.com/file/d/17eEXLax9MwHK1I054dxKNoisQBBcs0GF/view?usp=sharing" className="download-cv">Download Resume</a>
     </section>
   );
 };
