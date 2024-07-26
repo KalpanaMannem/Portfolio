@@ -10,7 +10,11 @@ body {
   justify-content: center;
 }
 
-
+.profile-pic {
+  position: relative;
+  left: 200px;
+  padding: 50px;
+}
 
 .header {
   background-color: #000000;
