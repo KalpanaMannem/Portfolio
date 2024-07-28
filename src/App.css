@@ -12,8 +12,19 @@ body {
 
 .profile-pic {
   position: relative;
-  left: 200px;
+  left: 75px;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  width: 247px;
+  height: 249px;
+  object-fit: cover;
+  border: 4px solid #f39c12;
 }
 
 .header {
