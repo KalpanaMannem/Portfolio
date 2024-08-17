@@ -143,7 +143,7 @@ const Resume = () => {
         </div>
       </div>
 
-      <a href="https://drive.google.com/file/d/17eEXLax9MwHK1I054dxKNoisQBBcs0GF/view?usp=sharing" className="download-cv">Download Resume</a>
+      {/* <a href="https://drive.google.com/file/d/17eEXLax9MwHK1I054dxKNoisQBBcs0GF/view?usp=sharing" className="download-cv">Download Resume</a> */}
     </section>
   );
 };
